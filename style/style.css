@@ -13,10 +13,13 @@ nav{
     justify-content: space-around;
     padding: 38px 0px;
     color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-title{
     display: flex;
     align-items: center;
+    gap: 68px;
+    padding-left: 100px;
 }
 .nav-logo{
     width: 86.041px;
@@ -25,17 +28,24 @@ nav{
 .nav-gamer-title{
     font-size: 2.8rem;
     font-weight: 700;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;;
 }
 .contacts{
     display: flex;
     align-items: center;
     list-style: none;
+    padding-left: 300px;
+    border: #0B0223 1px solid;
 }
 .contacts li{
     color: #3c354f;
     font-size: 1.1rem;
     font-weight: 500;
     margin-right: 32px;
+    /* margin-left: 64px; */
+    /* padding-left: 68px; */
 }
 .primary-color{
     color: rgb(255, 66, 165, 1);
@@ -56,8 +66,8 @@ nav{
     cursor: pointer;
 }
 .youtube{
-    width: 30px;
-    height:30px;
+    width: 35px;
+    height:35px;
     margin-left: 24px;
     cursor: pointer;
 }
@@ -67,4 +77,64 @@ nav{
         flex-direction: column;
         gap: 35px;
     }
+}
+/* header section */
+.header-part{
+    display: flex;
+    width: 1920px;
+    height: 700px;
+    gap: 68px;
+    border: 2px solid black;
+}
+.left-title1{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+.left-title2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 700px;
+    border: 2px solid black;
+    background-image: url(Group\ 14.png);
+    text-align: left;
+}
+.left-li{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    margin-bottom: 24px;
+}
+.right{
+    width: 900px;
+    height: 700px;
+    border: 2px solid black;
+}
+.btn-primary , .btn-secondary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+    margin-top: 20px;
+}
+.btn-secondary{
+    background: #4ec5f7;
+    margin-left: 24px;
 }
