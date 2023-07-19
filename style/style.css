@@ -249,6 +249,7 @@ footer li{
     font-size: 1rem;
     font-weight: 400;
     width: 415px;
+    padding-left: 100px;
 }
 .unleash{
     margin-top: 24px;
@@ -270,4 +271,37 @@ footer li{
     color: #534C64;
     font-size: 1.8rem;
     font-weight: 700;
+}
+/* online game section */
+.online-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700px;
+}
+.title-style{
+
+}
+.online-dis{
+
+}
+.online-container{
+
+}
+.online{
+
+}
+.no1{
+
+}
+.online-img{
+
+}
+.icon-watch{
+
+}
+.hover-icon{
+
+}
+.box-dis{
+
 }
