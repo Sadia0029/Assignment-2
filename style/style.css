@@ -443,7 +443,7 @@ footer li{
 /* Game catagories */
 .game-categories{
     /* border: 2px solid; */
-    margin-top: 120px;
+    /* margin-top: 120px; */
     width: 100%;
     display: grid;
     justify-content: center;
@@ -458,13 +458,13 @@ footer li{
 .category{
     background-color: #FFF;
     height: 80px;
-    /* border: 2px solid; */
     border-radius: 50px;
     display: flex;
     align-items: center;
     text-align: center;
     gap: 16px;
     width: 290px;
+    /* margin-top: 100px; */
 }
 .category-img{
     padding-left: 10px;
@@ -476,7 +476,8 @@ footer li{
 }
 .cata{
     margin-top: 200px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    /* padding-bottom: 100px; */
     text-align: center;
 }
 .rolep{
