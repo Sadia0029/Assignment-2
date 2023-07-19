@@ -5,7 +5,7 @@
 }
 /* nav bar */
 nav{
-    max-width: 1920px;
+    /* max-width: 1920px; */
 }
 .nav-bar{
     display: flex;
@@ -78,9 +78,12 @@ nav{
     }
 }
 /* header section */
+.heaa{
+    height: 700px; 
+}
 .header-part{
     display: flex;
-    width: 1920px;
+    /* width: 1920px; */
     height: 700px;
     gap: 68px;
 }
@@ -136,7 +139,7 @@ nav{
 }
 /* footer part */
 .footer{
-    width: 1920px;
+    /* width: 1920px; */
     height: 636px;
     background-color: #0B0223;
     display: flex;
@@ -219,7 +222,7 @@ footer li{
     /* padding: 55px 240px; */
     gap: 60px;
     text-align: right;
-    width: 1920px;
+    /* width: 1920px; */
     height: 600px;
 }
 .we-photo{
