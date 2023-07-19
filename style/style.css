@@ -207,37 +207,67 @@ footer li{
     list-style: none;
 }
 
-/* Section1 part */
-
-.section1{
-    width: 1920px;
-    height: 821px;
-    border: #0B0223 solid 2px;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-}
-.section1-imgg{
-    width: 1013px;
-    height: 821px;
-}
-.section1-div{
+/* we are gamer */
+.we-container{
+    background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%);
     display: flex;
-}
-.section1-content{
-    /* display: flex; */
-    text-align: center;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    /* padding: 55px 240px; */
+    gap: 60px;
+    text-align: right;
+    width: 1920px;
+    height: 600px;
+}
+.we-photo{
+    width: 100%;
+    height: 420px;
+    /* border: 1px solid black; */
+}
+.we-img{
+    margin-right: 100px;
+}
+.we-item{
+
+}
+.we-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.we-dis{
+    text-align: right;
+    margin: 25px 0px;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 415px;
+}
+.unleash{
+    margin-top: 24px;
     display: flex;
+    justify-content: right;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
-.section1-title{
-
+.ellipsis{
+    width: 135px;
+    /* border: 2px solid blue; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* text-align: right; */
 }
-.section1-dis{
-
-}
-.section1-dis1{
-    display: flex;
-}
-.btn-white{
-
+.unleash-dis{
+    color: #534C64;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
